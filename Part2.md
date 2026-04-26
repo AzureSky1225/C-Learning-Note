@@ -1357,6 +1357,27 @@ cout << a + b << endl;
 * 输出所有偶数
 * 打印乘法表
 
+九九乘法表打印：
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   for (int i = 1; i <= 9; i++)
+   {
+    for (int j = 1; j <= i; j++)
+    {
+       cout << i << "*" << j << "=" << i * j << "\t";
+    }
+   
+       cout <<  endl;
+   
+   }
+   return 0;
+}
+```
+
 ---
 
 ### 二、while循环
